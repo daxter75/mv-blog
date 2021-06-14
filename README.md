@@ -45,7 +45,7 @@ The application should contain the following features:
 ## Description
 
 Migrations and seeds generate a few simple users and posts. 
-For all users, the password is "password". First user is administrator, with credentials: admin@com.com/admin1admin
+For all users, the password is "password". First user is administrator, with credentials: admin@com.com / admin1admin
 
 Only administrators can manipulate the users' data (add/edit/delete). 
 Editors and administrators can show/edit/delete all posts.

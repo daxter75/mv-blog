@@ -93,11 +93,11 @@
                     </label>
 
                     <select id="level" name="level" class="bg-white border border-gray-400 p-2 w-full">
-                        <option value="0" {{ $user->level === 0 ? 'selected' : '' }}>0 - Disabled</option>
-                        <option value="500" {{ $user->level === 500 ? 'selected' : '' }}>500 - Writer</option>
-                        <option value="700" {{ $user->level === 700 ? 'selected' : '' }}>700 - Editor</option>
-                        <option value="900" {{ $user->level === 900 ? 'selected' : '' }}>900 - Administrator</option>
-                        <option value="999" {{ $user->level === 999 ? 'selected' : '' }}>999 - Super Administrator</option>
+                        <option value="0" {{ $user->level == 0 ? 'selected' : '' }}>0 - Disabled</option>
+                        <option value="500" {{ $user->level == 500 ? 'selected' : '' }}>500 - Writer</option>
+                        <option value="700" {{ $user->level == 700 ? 'selected' : '' }}>700 - Editor</option>
+                        <option value="900" {{ $user->level == 900 ? 'selected' : '' }}>900 - Administrator</option>
+                        <option value="999" {{ $user->level == 999 ? 'selected' : '' }}>999 - Super Administrator</option>
                     </select>
 
                     @error('level')
